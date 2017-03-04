@@ -1,0 +1,180 @@
+/* Table  Styles */
+
+.forms table {
+	empty-cells: show;
+	padding:0px;
+	border: 0px;
+	border-spacing: 0px;
+	}	
+	
+	
+.forms .outerTable, .forms .OuterTable, .forms .outertable {
+  	border-top: 1px solid #000000;
+  	border-right: 1px solid #000000;
+  	padding: 0px;
+    width:100%;
+	}
+	
+.forms .outerTable td, .forms .OuterTable td, .forms .outertable td {
+  	border-left: 1px solid #000000;
+  	border-bottom: 1px solid #000000;
+  	padding: 3px;
+	}
+	
+.forms .outerTable td td, .forms .OuterTable td td, .forms .outertable td td {
+ 	border: 0px;
+  	padding: 0px;
+	}	
+	
+.forms table.innerTable, .forms table.innertable {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: separate;
+    	width:100%;
+	}
+
+.forms table.innerTable td, .forms table.innertable td {
+	border-width: 0px;
+	border-style: solid;
+	padding:1px;
+	border-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	}
+
+.forms table.gridTable, .forms table.GridTable {
+	border-width: 1px 1px 0 0;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: separate;
+    	width:100%;
+	}
+
+.forms table.gridTable td, .forms table.GridTable td {
+	border-width: 0 0 1px 1px;
+	padding:2px;
+	border-style: solid;
+	border-color: black;
+	}
+	
+.forms table.gridTable td td, .forms table.GridTable td td {
+  	border: 0px;
+  	padding: 0px;
+	}
+
+/* End Table Styles*/	
+
+/* form Styles */
+
+.forms .ulMainText, .forms .UlMainText, .forms .ulmainText, .forms .ulmaintext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: underline;
+	font-weight: normal;	
+	}
+	
+.forms .ulMainBoldText, .forms .UlMainboldText, .forms .ulMainboldText, .forms .ulmainBoldText, .forms .ulmainboldText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: underline;
+	font-weight: bold;	
+	}
+	
+.forms .ulItalicText{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style:italic;	
+	font-weight: normal;
+	text-decoration: underline;
+	}
+	
+.forms .ulItalicBoldText{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style:italic;	
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	
+.forms .italicText{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style:italic;	
+	font-weight: normal;
+	}
+	
+.forms .italicBoldText, .forms .ItalicboldText, .forms .italicboldText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style:italic;	
+	font-weight: bold;
+	}	
+	
+.forms .normalText, .forms .NormalText, .forms .normaltext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	}	
+	
+.forms .boldText, .forms .BoldText, .forms .boldtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	}
+	
+.forms .bigText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: normal;
+	}
+.forms .bigBoldText, .forms .bigboldText {
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 17pt;
+	font-weight: bold;
+	}
+	
+.forms .smallNormalText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	}
+	
+.forms .sectionTitleLightGrey, .forms .sectionTitleLightgrey, .forms .sectionTitlelightGrey, .forms .sectionTitlelightgrey, .forms .sectiontitleLightGrey, .forms .sectiontitleLightgrey, .forms .sectiontitlelightgrey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+	background-color: #D3D3D3;
+	text-align:center;
+	}
+
+.forms .sectionTitleGrey, .forms .sectionTitlegrey, .forms .sectiontitleGrey, .forms .sectiontitlegrey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #696969;
+	text-align:center;
+	}
+
+.forms hr {
+  	border: 0;
+  	width: 100%;
+  	color: #000;
+	background-color: #000;
+	height: 1px;
+	}
+.forms .field {
+    white-space: nowrap;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	}
+/* End form Styles*/
+	
